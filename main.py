@@ -1,6 +1,7 @@
 import flask
 from flask import request, redirect
-
+import petpy
+import os
 
 @app.route('/')
 return render_template('home.html')
@@ -18,5 +19,4 @@ def animal():
     animal = request.form['animal']
     return redirect('/')
     
-
 
