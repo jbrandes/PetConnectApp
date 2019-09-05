@@ -2,6 +2,7 @@ import flask
 from flask import Flask, redirect, url_for, render_template, request
 import petpy
 import os
+from app import app
 
 
 app = Flask(__name__, static_url_path='/static')
